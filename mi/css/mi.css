@@ -1,0 +1,695 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  width: 100%;
+  font-size: 62.5%;
+  min-width: 1200px; }
+
+.tou {
+  width: 100%;
+  margin: 0; }
+
+header {
+  width: 100%;
+  height: 40px;
+  margin-top: -4px;
+  line-height: 40px;
+  background: #333333; }
+  header div {
+    width: 1200px;
+    background: #333333;
+    margin: 0 auto; }
+    header div a {
+      text-decoration: none;
+      color: #ccc;
+      margin-right: 20px;
+      padding: 0 20px 0 0;
+      position: relative;
+      z-index: 10;
+      overflow: visible;
+      border-right: 1px solid #ccc; }
+    header div #zui {
+      border: 0; }
+    header div p {
+      float: right;
+      color: #ccc; }
+      header div p span {
+        display: inline-block;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        background: #424242; }
+
+.ban {
+  width: 100%;
+  overflow: hidden; }
+  .ban .ban1 {
+    width: 1200px;
+    padding: 15px 0;
+    margin: 0 auto;
+    display: flex;
+    position: relative; }
+    .ban .ban1 .nav {
+      flex-grow: 1; }
+      .ban .ban1 .nav span {
+        padding: 0 15px;
+        margin-top: 15px;
+        height: 100%;
+        transition: all 1s;
+        display: inline-block; }
+        .ban .ban1 .nav span div {
+          position: absolute;
+          left: 0;
+          top: 80px;
+          text-align: center;
+          font-size: 30px;
+          padding: 0px 0;
+          border-bottom: 1px solid #fff;
+          height: 0px;
+          width: 100%;
+          overflow: hidden;
+          background: white;
+          z-index: 30;
+          transition: all 1s; }
+        .ban .ban1 .nav span:hover div {
+          height: 200px;
+          padding: 50px 0;
+          border-bottom: 1px solid purple; }
+      .ban .ban1 .nav span:hover div {
+        display: block; }
+    .ban .ban1 .img1 {
+      margin-right: 50px;
+      vertical-align: middle; }
+    .ban .ban1 .nav_right {
+      display: block;
+      clear: both;
+      content: "";
+      position: relative; }
+      .ban .ban1 .nav_right span {
+        position: absolute;
+        top: 20px;
+        padding: 0 10px;
+        left: 20px;
+        color: #7a7a7a;
+        background: #eeeeee; }
+      .ban .ban1 .nav_right span:nth-of-type(2) {
+        top: 20px;
+        left: 100px; }
+      .ban .ban1 .nav_right input {
+        width: 240px;
+        height: 51px;
+        margin-top: -3px;
+        border: 1px solid #ccc;
+        outline: none; }
+      .ban .ban1 .nav_right img {
+        vertical-align: middle;
+        border: 1px solid #ccc;
+        padding: 6px;
+        width: 55px;
+        box-sizing: border-box;
+        position: relative;
+        left: -1px;
+        top: -1px; }
+
+.s1 {
+  width: 100%;
+  clear: both; }
+  .s1 .s1div {
+    width: 1200px;
+    height: 440px;
+    margin: 0 auto;
+    position: relative; }
+    .s1 .s1div div {
+      float: left; }
+    .s1 .s1div .sa1 {
+      width: 220px;
+      height: 440px;
+      position: absolute;
+      z-index: 20;
+      top: 0;
+      left: 0;
+      background: #0c0d0f;
+      opacity: 0.8; }
+      .s1 .s1div .sa1 ul {
+        list-style: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+        color: #fff;
+        position: relative; }
+        .s1 .s1div .sa1 ul li {
+          flex-grow: 1;
+          padding: 10px 40px;
+          transition: all 2s; }
+          .s1 .s1div .sa1 ul li div {
+            position: absolute;
+            width: 300px;
+            height: 440px;
+            top: -8%;
+            left: 220px;
+            display: none;
+            font-size: 50px;
+            font-weight: bold;
+            background: rgba(250, 250, 250, 0.8); }
+          .s1 .s1div .sa1 ul li img {
+            float: right;
+            width: 1rem; }
+        .s1 .s1div .sa1 ul li:hover {
+          background: rgba(200, 200, 200, 0.8); }
+          .s1 .s1div .sa1 ul li:hover div {
+            display: block; }
+    .s1 .s1div .sa2 {
+      width: 100%;
+      height: 440px;
+      overflow: hidden;
+      position: relative; }
+      .s1 .s1div .sa2 #swiper {
+        width: 100%;
+        height: 100%; }
+        .s1 .s1div .sa2 #swiper img {
+          width: 100%;
+          margin-top: -200px; }
+        .s1 .s1div .sa2 #swiper .prev {
+          left: 230px; }
+      .s1 .s1div .sa2 .fen span {
+        margin: 0 10px; }
+
+.s2 {
+  width: 100%;
+  margin-top: 14px; }
+  .s2 .s2div {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto; }
+    .s2 .s2div div {
+      float: left;
+      flex-grow: 1;
+      background: #5f5750;
+      display: flex;
+      flex-direction: column; }
+      .s2 .s2div div ul {
+        list-style: none;
+        box-sizing: border-box;
+        padding-top: 20px;
+        flex-grow: 1;
+        display: flex; }
+        .s2 .s2div div ul li {
+          flex-grow: 1;
+          width: 70px;
+          text-align: center;
+          color: #a5aaa0; }
+    .s2 .s2div .tuw {
+      flex-grow: 1;
+      width: 300px;
+      margin-left: 10px; }
+
+.s3 {
+  width: 100%;
+  margin-top: 40px; }
+  .s3 .s3div {
+    width: 1200px;
+    margin: 0 auto; }
+    .s3 .s3div p {
+      font-size: 22px; }
+      .s3 .s3div p span {
+        float: right;
+        color: #ccc;
+        border: 1px solid #ccc;
+        font-size: 18px;
+        width: 40px;
+        text-align: center; }
+    .s3 .s3div div {
+      width: 100%;
+      height: 320px;
+      overflow: hidden; }
+      .s3 .s3div div ul {
+        display: flex;
+        width: 2415px;
+        list-style: none; }
+        .s3 .s3div div ul li {
+          flex-grow: 1;
+          background: #fafafa;
+          width: 20%;
+          transition: all .5s;
+          margin-right: 15px;
+          text-align: center; }
+          .s3 .s3div div ul li img {
+            margin: 40px 0 30px 0; }
+          .s3 .s3div div ul li p {
+            font-size: 13px;
+            line-height: 20px; }
+          .s3 .s3div div ul li span {
+            color: #ccc;
+            line-height: 30px; }
+          .s3 .s3div div ul li b {
+            color: orangered; }
+          .s3 .s3div div ul li:hover {
+            box-shadow: 1px 1px 10px #0000FF; }
+        .s3 .s3div div ul .or {
+          border-top: 1px solid orange; }
+        .s3 .s3div div ul .gr {
+          border-top: 1px solid lightgreen; }
+        .s3 .s3div div ul .bl {
+          border-top: 1px solid blue; }
+        .s3 .s3div div ul .pu {
+          border-top: 1px solid purple; }
+        .s3 .s3div div ul .aq {
+          border-top: 1px solid aqua; }
+        .s3 .s3div div ul .liz {
+          margin-right: 0; }
+
+.s4 {
+  margin-top: 40px;
+  width: 100%;
+  padding: 50px 0;
+  background: whitesmoke; }
+  .s4 .s3div {
+    width: 1200px;
+    margin: 0 auto;
+    background: whitesmoke;
+    margin-bottom: 30px; }
+    .s4 .s3div p {
+      font-size: 22px; }
+      .s4 .s3div p span {
+        float: right;
+        color: #ccc;
+        border: 1px solid #ccc;
+        font-size: 18px;
+        width: 40px;
+        text-align: center; }
+    .s4 .s3div ul {
+      width: 100%;
+      height: 310px;
+      display: flex;
+      list-style: none; }
+      .s4 .s3div ul li {
+        flex-grow: 1;
+        background: #fafafa;
+        width: 20%;
+        margin-right: 15px;
+        text-align: center; }
+        .s4 .s3div ul li img {
+          margin: 50px 0 40px 0; }
+        .s4 .s3div ul li p {
+          font-size: 13px;
+          line-height: 20px; }
+        .s4 .s3div ul li span {
+          color: #ccc;
+          line-height: 30px; }
+        .s4 .s3div ul li b {
+          color: orangered; }
+      .s4 .s3div ul .or {
+        border-top: 1px solid orange; }
+        .s4 .s3div ul .or p {
+          color: orange; }
+      .s4 .s3div ul .gr {
+        border-top: 1px solid lightgreen; }
+        .s4 .s3div ul .gr p {
+          color: lightgreen; }
+      .s4 .s3div ul .bl {
+        border-top: 1px solid blue; }
+        .s4 .s3div ul .bl p {
+          color: blue; }
+      .s4 .s3div ul .pu {
+        border-top: 1px solid purple; }
+        .s4 .s3div ul .pu p {
+          color: purple; }
+  .s4 .div7 ul li {
+    text-align: center;
+    overflow: hidden; }
+    .s4 .div7 ul li p {
+      margin-top: 30px; }
+    .s4 .div7 ul li img {
+      margin: 10px 0; }
+    .s4 .div7 ul li div {
+      display: inline-block;
+      width: 5px;
+      height: 5px;
+      margin: 0 5px;
+      border-radius: 50%;
+      background: #ccc; }
+    .s4 .div7 ul li div:nth-of-type(1) {
+      border: 1px solid orangered;
+      background: #fff; }
+  .s4 .div7 ul li.or {
+    position: relative;
+    overflow: hidden; }
+    .s4 .div7 ul li.or .orr {
+      width: 200%;
+      display: block; }
+      .s4 .div7 ul li.or .orr .or1 {
+        text-align: center;
+        width: 50%;
+        float: left; }
+        .s4 .div7 ul li.or .orr .or1 p {
+          margin-top: 30px; }
+        .s4 .div7 ul li.or .orr .or1 img {
+          margin: 10px 0; }
+        .s4 .div7 ul li.or .orr .or1 div {
+          display: inline-block;
+          width: 5px;
+          height: 5px;
+          margin: 0 5px;
+          border-radius: 50%;
+          background: #ccc; }
+        .s4 .div7 ul li.or .orr .or1 div:nth-of-type(1) {
+          border: 1px solid orangered;
+          background: #fff; }
+      .s4 .div7 ul li.or .orr .orr1 {
+        position: relative; }
+    .s4 .div7 ul li.or:hover button {
+      display: block; }
+    .s4 .div7 ul li.or > button {
+      position: absolute;
+      top: 150px;
+      display: none;
+      background: #fff;
+      outline: none;
+      border: 0; }
+    .s4 .div7 ul li.or button:nth-of-type(1) {
+      left: 10px; }
+    .s4 .div7 ul li.or button:nth-of-type(2) {
+      right: 10px; }
+  .s4 .div6 {
+    width: 1200px;
+    margin: 0 auto;
+    background: whitesmoke;
+    margin-bottom: 30px; }
+    .s4 .div6 p {
+      font-size: 22px; }
+      .s4 .div6 p span {
+        float: right;
+        color: #ccc;
+        border: 1px solid #ccc;
+        font-size: 18px;
+        width: 40px;
+        text-align: center; }
+    .s4 .div6 ul {
+      width: 100%;
+      height: 310px;
+      display: flex;
+      list-style: none; }
+      .s4 .div6 ul li {
+        flex-grow: 1;
+        background: #fafafa;
+        width: 20%;
+        margin-right: 15px;
+        text-align: center; }
+        .s4 .div6 ul li img {
+          margin: 50px 0 40px 0; }
+        .s4 .div6 ul li p {
+          font-size: 13px;
+          line-height: 20px; }
+        .s4 .div6 ul li span {
+          color: #ccc;
+          line-height: 30px; }
+        .s4 .div6 ul li b {
+          color: orangered; }
+      .s4 .div6 ul .liz {
+        margin-right: 0; }
+  .s4 .zy2 div {
+    width: 100%;
+    overflow: hidden; }
+    .s4 .zy2 div ul {
+      width: 2400px; }
+      .s4 .zy2 div ul li {
+        transition: all .5s;
+        position: relative; }
+        .s4 .zy2 div ul li div {
+          width: 100%;
+          height: 55px;
+          position: absolute;
+          bottom: -55px;
+          color: #fff;
+          line-height: 55px;
+          transition: all 1s;
+          background: mediumaquamarine; }
+        .s4 .zy2 div ul li:hover div {
+          bottom: 0; }
+        .s4 .zy2 div ul li:hover {
+          box-shadow: 1px 1px 10px #00FFFF; }
+  .s4 .div8 p span {
+    border: 0;
+    font-size: 14px;
+    display: inline-block;
+    width: 40px; }
+  .s4 .div8 ul li {
+    position: relative;
+    text-align: center; }
+    .s4 .div8 ul li p, .s4 .div8 ul li span {
+      display: block;
+      line-height: 30px;
+      margin: 0;
+      text-align: center; }
+    .s4 .div8 ul li #play {
+      position: absolute;
+      top: 170px;
+      left: 20px;
+      width: 40px;
+      border-radius: 30px; }
+  .s4 .divrp ul li {
+    text-align: left; }
+    .s4 .divrp ul li img {
+      width: 100%;
+      margin: 0; }
+    .s4 .divrp ul li p {
+      margin: 7px 0 0 0; }
+    .s4 .divrp ul li b, .s4 .divrp ul li p, .s4 .divrp ul li span {
+      margin-left: 30px; }
+    .s4 .divrp ul li span:nth-of-type(2) {
+      color: #000; }
+    .s4 .divrp ul li b {
+      display: inline-block; }
+  .s4 .s4div {
+    width: 1200px;
+    background: whitesmoke;
+    margin: 0 auto; }
+    .s4 .s4div p {
+      font-size: 20px;
+      margin-bottom: 10px; }
+      .s4 .s4div p span {
+        float: right;
+        font-size: 1rem;
+        margin: 0 0 0 20px; }
+        .s4 .s4div p span:nth-of-type(1) {
+          border-bottom: 1px solid orange;
+          color: orange; }
+    .s4 .s4div .d1 {
+      width: 100%;
+      height: 570px;
+      margin-bottom: 50px; }
+      .s4 .s4div .d1 div {
+        float: left;
+        height: 100%; }
+      .s4 .s4div .d1 .d11 {
+        width: 220px;
+        overflow: hidden; }
+        .s4 .s4div .d1 .d11 img {
+          width: 100%; }
+      .s4 .s4div .d1 .d12 {
+        width: 980px;
+        display: flex;
+        flex-direction: column; }
+        .s4 .s4div .d1 .d12 ul {
+          flex-grow: 1;
+          list-style: none;
+          display: flex; }
+          .s4 .s4div .d1 .d12 ul li {
+            text-align: center;
+            width: 25%;
+            transition: all 1s;
+            position: relative;
+            flex-grow: 1;
+            background: #fff;
+            overflow: hidden;
+            margin-left: 15px; }
+            .s4 .s4div .d1 .d12 ul li div {
+              position: absolute;
+              width: 100%;
+              height: 35px;
+              line-height: 35px;
+              background: orange;
+              color: #fff;
+              bottom: -3rem;
+              transition: all 1s; }
+            .s4 .s4div .d1 .d12 ul li img {
+              margin: 30px 0 20px 0; }
+            .s4 .s4div .d1 .d12 ul li p {
+              font-size: 13px;
+              line-height: 20px; }
+            .s4 .s4div .d1 .d12 ul li span {
+              color: #ccc;
+              line-height: 30px; }
+            .s4 .s4div .d1 .d12 ul li b {
+              color: orangered; }
+          .s4 .s4div .d1 .d12 ul li:hover {
+            box-shadow: 1px 1px 10px #000;
+            position: relative;
+            top: -3px; }
+          .s4 .s4div .d1 .d12 ul li:hover div {
+            bottom: 0; }
+        .s4 .s4div .d1 .d12 .ul1 {
+          margin-bottom: 10px; }
+        .s4 .s4div .d1 .d12 .ul2 li:nth-of-type(4) {
+          background: whitesmoke;
+          display: flex;
+          flex-direction: column; }
+          .s4 .s4div .d1 .d12 .ul2 li:nth-of-type(4) span {
+            flex-grow: 1;
+            background: #fff; }
+            .s4 .s4div .d1 .d12 .ul2 li:nth-of-type(4) span img {
+              margin-left: 20px;
+              vertical-align: middle; }
+          .s4 .s4div .d1 .d12 .ul2 li:nth-of-type(4) span:nth-of-type(1) {
+            margin-bottom: 10px; }
+  .s4 .div4 .ul1 li img {
+    width: 126px; }
+  .s4 .div2 ul li img, .s4 .div3 ul li img, .s4 .div4 ul li img {
+    width: 125px; }
+  .s4 .div2 ul #lii span, .s4 .div3 ul #lii span, .s4 .div4 ul #lii span {
+    padding: 15px 0; }
+  .s4 .div2 ul #lii img, .s4 .div3 ul #lii img, .s4 .div4 ul #lii img {
+    width: 50px; }
+
+.s5 {
+  width: 100%;
+  height: 250px;
+  background: #fff; }
+  .s5 .footer {
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff; }
+    .s5 .footer .ul11 {
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      list-style: none;
+      height: 20px;
+      padding: 20px 0;
+      margin-bottom: 30px; }
+      .s5 .footer .ul11 li {
+        float: left;
+        width: 20%;
+        color: #666c86;
+        padding: 3px 0;
+        text-align: center;
+        box-sizing: border-box;
+        border-right: 1px solid #ccc; }
+      .s5 .footer .ul11 .zui {
+        border: 0; }
+    .s5 .footer .fdiv {
+      width: 100%; }
+      .s5 .footer .fdiv .dd1 {
+        float: left;
+        width: 79%;
+        display: flex; }
+        .s5 .footer .fdiv .dd1 ul {
+          flex-grow: 1;
+          list-style: none; }
+          .s5 .footer .fdiv .dd1 ul li {
+            line-height: 30px;
+            font-size: 14px;
+            color: #666c86; }
+          .s5 .footer .fdiv .dd1 ul li:nth-of-type(1) {
+            font-weight: bolder;
+            font-size: 16px;
+            margin-bottom: 10px; }
+      .s5 .footer .fdiv .kefu {
+        float: right;
+        width: 20%;
+        border-left: 1px solid #ccc;
+        text-align: center; }
+        .s5 .footer .fdiv .kefu b {
+          color: orangered;
+          font-size: 20px;
+          line-height: 30px;
+          box-sizing: border-box; }
+        .s5 .footer .fdiv .kefu span {
+          color: #8a8a8a;
+          line-height: 20px; }
+        .s5 .footer .fdiv .kefu button {
+          width: 120px;
+          height: 30px;
+          background: #fff;
+          color: orangered;
+          border: 1px solid orangered;
+          outline: none; }
+
+footer {
+  width: 100%;
+  height: 150px;
+  background: #fafafa; }
+  footer .footdiv {
+    width: 1200px;
+    margin: 0 auto;
+    background: #fafafa;
+    height: 100%;
+    position: relative; }
+    footer .footdiv .divzui {
+      padding: 30px 0 0 0;
+      width: 100%;
+      height: 80px;
+      color: #969696; }
+      footer .footdiv .divzui div:nth-of-type(1) {
+        float: left;
+        width: 65%; }
+        footer .footdiv .divzui div:nth-of-type(1) span {
+          color: #646464; }
+        footer .footdiv .divzui div:nth-of-type(1) img {
+          float: left;
+          margin: 0 10px 0 0; }
+      footer .footdiv .divzui div:nth-of-type(2) {
+        float: right;
+        width: 32%; }
+        footer .footdiv .divzui div:nth-of-type(2) img {
+          vertical-align: middle;
+          float: left;
+          margin-left: 10px; }
+        footer .footdiv .divzui div:nth-of-type(2) span {
+          float: left; }
+        footer .footdiv .divzui div:nth-of-type(2) .img11 {
+          width: 100px; }
+        footer .footdiv .divzui div:nth-of-type(2) .img12, footer .footdiv .divzui div:nth-of-type(2) .img13, footer .footdiv .divzui div:nth-of-type(2) .img14 {
+          width: 30px; }
+
+.ul3 li {
+  position: relative;
+  overflow: hidden;
+  transition: all .5s; }
+  .ul3 li div {
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+    height: 60px;
+    transition: all 1s;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    background: orangered; }
+.ul3 li:hover {
+  box-shadow: 1px 1px 10px #000; }
+.ul3 li:hover div {
+  bottom: 0; }
+
+.spqb li {
+  transition: all .5s;
+  overflow: hidden;
+  position: relative; }
+  .spqb li:hover {
+    box-shadow: 1px 1px 10px salmon; }
+  .spqb li div {
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    background: mediumorchid;
+    text-align: center;
+    color: #fff;
+    transition: all 1s;
+    line-height: 50px; }
+  .spqb li:hover div {
+    bottom: 0; }
+
+/*# sourceMappingURL=mi.css.map */
